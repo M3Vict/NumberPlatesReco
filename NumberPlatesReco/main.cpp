@@ -121,7 +121,7 @@ int main(int argc, const char** argv)
     };
     string camera_device = "C:\\Users\\Admin\\Desktop\\Megamind.avi";
     VideoCapture capture;
-    capture.open(0);
+    capture.open(camera_device);
     if (!capture.isOpened())
     {
         cout << "--(!)Error opening video capture\n";
