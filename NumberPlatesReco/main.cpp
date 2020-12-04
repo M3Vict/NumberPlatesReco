@@ -18,6 +18,6 @@ int main()
 		if (waitKey(30) >= 0)
 			break;
 	}
-	
+	// Wgl ja mam na czerwono to i jako b³êdy :|
 	return 0;
 }
