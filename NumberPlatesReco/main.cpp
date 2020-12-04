@@ -4,7 +4,17 @@ using namespace cv;
 
 int main()
 {
-	//test2
-	//Dopisane
+	VideoCapture cap(0);
+	if (!cap.isOpened())
+		return 1;
+	for (;;)
+	{
+		Mat frame;
+		cap >> frame;
+		imshow("Webcam", frame);
+
+		if (waitKey(30) >= 0)
+			break;
+	}
 	return 0;
 }
