@@ -5,5 +5,6 @@ using namespace cv;
 int main()
 {
 	//test2
+	//Dopisane
 	return 0;
 }
