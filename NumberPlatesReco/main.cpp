@@ -19,6 +19,7 @@ int main()
 			break;
 	}
 	// Wgl ja mam na czerwono to i jako b³êdy :|
-	//
+	// Ju¿ nie :)
+	// Test
 	return 0;
 }
