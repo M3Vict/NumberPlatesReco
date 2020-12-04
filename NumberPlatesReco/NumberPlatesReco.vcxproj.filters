@@ -19,9 +19,4 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <Media Include="C:\Users\Admin\Desktop\Garmin Dash Cam 55 Plus Sample Footage.mp4">
-      <Filter>Resource Files</Filter>
-    </Media>
-  </ItemGroup>
 </Project>
