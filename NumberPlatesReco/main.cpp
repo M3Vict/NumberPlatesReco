@@ -1,11 +1,10 @@
-#include <opencv2/opencv.hpp>
+ï»¿#include <opencv2/opencv.hpp>
 
 using namespace cv;
 
 int main()
 {
-	//tu Artur
-	//Tu Michal
+
 	VideoCapture cap(0);
 	if (!cap.isOpened())
 		return 1;
@@ -19,9 +18,13 @@ int main()
 		if (waitKey(30) >= 0)
 			break;
 	}
-	// Wgl ja mam na czerwono to i jako b³êdy :|
-	// Ju¿ nie :)
+<<<<<<< HEAD
+	// Wgl ja mam na czerwono to i jako bï¿½ï¿½dy :|
+	// Juï¿½ nie :)
 	// Test
 	
+=======
+
+>>>>>>> 0f5bd838704c3c03e472634a90f45e3702d51e61
 	return 0;
 }
