@@ -8,7 +8,6 @@ int main()
 	VideoCapture cap(0);
 	if (!cap.isOpened())
 		return 1;
-
 	for (;;)
 	{
 		Mat frame;
@@ -18,13 +17,6 @@ int main()
 		if (waitKey(30) >= 0)
 			break;
 	}
-<<<<<<< HEAD
-	// Wgl ja mam na czerwono to i jako b��dy :|
-	// Ju� nie :)
-	// Test
-	
-=======
 
->>>>>>> 0f5bd838704c3c03e472634a90f45e3702d51e61
 	return 0;
 }
