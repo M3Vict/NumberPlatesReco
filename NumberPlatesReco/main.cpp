@@ -4,6 +4,7 @@ using namespace cv;
 
 int main()
 {
+	//tu Artur
 	VideoCapture cap(0);
 	if (!cap.isOpened())
 		return 1;
